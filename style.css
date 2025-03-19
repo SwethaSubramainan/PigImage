@@ -1,0 +1,110 @@
+body{
+    /* margin: 0; */
+    background-color:aqua;
+}
+h1{
+    text-align:center;
+    color:black;
+    font-style:italic;
+}
+.head{
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    position: relative;
+    top:200px;
+    left:600px;
+    border:5px solid black;
+}
+.ear_left{
+    position: absolute;
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    background-color: palevioletred;
+    display:inline-block;
+    margin-left:0px;
+    /* border:5px solid black; */
+}
+.ear_right{
+    position: absolute;
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    background-color: palevioletred;
+    display:inline-block;
+    margin-left:140px;
+    /* border:5px solid black; */
+}
+.eye_left{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border:5px solid black;
+    border-radius: 50%;
+    position: relative;
+    display:inline-block;
+    top:50px;
+    left:40px;
+}
+.eye_right{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border:5px solid black;
+    border-radius: 50%;
+    position: relative;
+    display:inline-block;
+    margin-left:120px;
+}
+.eyeball1{
+    width:20px;
+    height:20px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    display:inline-block;
+    top:10px;
+    left:10px;
+}
+.eyeball2{
+    width:20px;
+    height:20px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    display:inline-block;
+    top:10px;
+    left:10px;
+}
+.nose{
+    width:100px;
+    height:50px;
+    border-radius:35px 35px 35px 35px;
+    background-color:lightcoral;
+    margin-left:50px;
+    top:150px;
+    left:10px;
+    border: 5px solid black;
+}
+.nostril_left{
+    width:20px;
+    height:20px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    display:inline-block;
+    top:15px;
+    left:25px;
+}
+.nostril_right{
+    width:20px;
+    height:20px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    display:inline-block;
+    top:15px;
+    left:35px;
+}
